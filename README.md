@@ -35,7 +35,7 @@ yii2 wechat是作为一个组件提供服务的，所以得配置yii2 wechat组�
 
 
 核心API
-===========
+-------------
 ```php
     /** @var $wechat \feehi\wechat\Wechat */
     $wechat = yii::$app->get('wechat');
@@ -52,6 +52,4 @@ yii2 wechat是作为一个组件提供服务的，所以得配置yii2 wechat组�
     $wechat->assembleWechatResponse(); //组装需要返回给微信的xml
 ```
 
-P.S
-1. 以上基本上都是返回stdClass object
-2. 可以在ide中增加注释/** @var $wechat \feehi\wechat\Wechat */来跳转sdk源码
+P.S 以上基本上都是返回stdClass object，可以在ide中增加注释/** @var $wechat \feehi\wechat\Wechat */来跳转sdk源码。
