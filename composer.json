@@ -1,0 +1,26 @@
+{
+  "name": "feehi/yii2-wechat",
+  "type": "library",
+  "description": "yii2 wechat",
+  "keywords": ["yii2","swoole","yii2-wechat", "wechat", "php wechat"],
+  "homepage": "http://blog.feehi.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "liufee",
+      "email": "job@feehi.com",
+      "homepage": "http://blog.feehi.com",
+      "role": "Developer"
+    }
+  ],
+  "require:": {
+    "php": ">=5.4",
+    "guzzlehttp/guzzle": ">=4.1.4 <7.0"
+
+  },
+  "autoload": {
+    "psr-4": {
+      "feehi\\wechat\\": "src/"
+    }
+  }
+}
